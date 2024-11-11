@@ -1,74 +1,91 @@
 # .NET-Projecct-10Pearls-
 
 
-# Task Management Application
+Task Management System
 
-This is a task management application built with ASP.NET Core 8 for the backend and React for the frontend. It allows users to create, read, update, and delete tasks. The backend connects to a SQL Server database using Entity Framework Core.
+A web-based application for seamless task management with user and admin functionalities.
+Getting Started
 
----
+Follow the steps below to set up the project locally for development and testing purposes.
+Table of Contents
 
-## Features
+  -  Prerequisites
+  -  Backend Setup
+  -  Frontend Setup
+  -  Tech Stack
+  -  Additional Information
 
-- **Create** a new task with a title and description.
-- **Read** all tasks from the database and display them in a table.
-- **Update** existing tasks with new information.
-- **Delete** tasks.
-- **Frontend** built with React and styled using Bootstrap.
-- **Backend** with ASP.NET Core 8 and Entity Framework Core for database interactions.
+Prerequisites
 
----
+Ensure your machine has the following installed:
 
-## Prerequisites
+  -  .NET SDK (version 6.0 or later)
+  -  Node.js (version 14.0 or later)
+  -  npm (Node Package Manager)
+  -  SQL Server (or another preferred database)
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [Node.js](https://nodejs.org/) and npm (for frontend)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server) or any SQL Server instance for the backend database
-- [Visual Studio or VS Code](https://visualstudio.microsoft.com/) for development
+Backend Setup
+1. Clone the repository:
 
----
+git clone [https://github.com/MuhammadAhmedKamal/]
+cd [C#_Backend.zip]
 
-## Getting Started
+2. Configure the database:
 
-### Backend Setup (ASP.NET Core)
+    {
+      "ConnectionStrings": 
+      {
+        "DBConnection": "Server = DESKTOP-V6OJ7TG\\SQL2K22; Initial Catalog = DOTNET_DB; Persist Security Info=False; 
+        User ID=sa; Password=Pak@123; 
+        MultipleActiveResultSets=False; Encrypt=True; TrustServerCertificate=True;"
+      }
+    }
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/task-management-app.git
-   cd task-management-app/Backend_website
+3. Run Entity Framework migrations:
 
+dotnet ef migrations add InitialCreate
+dotnet ef database update
 
+4. Install dependencies:
 
-## Project Structure
+dotnet restore
 
-task-management-app/
-│
-├── Backend_website/                # ASP.NET Core backend
-│   ├── Controllers/                # API Controllers
-│   ├── Models/                     # Entity models and DbContext
-│   └── Program.cs                  # Main configuration and startup
-│
-├── frontend/                       # React frontend
-│   ├── src/
-│   │   ├── components/             # React components
-│   │   ├── pages/                  # Pages (e.g., Homepage.jsx)
-│   │   └── App.js                  # Main app component
-│   └── package.json                # npm dependencies
-│
-└── README.md                       # Project documentation
+5. Run the backend server:
 
+dotnet run/ Ctrl+f5 (in Visual Studio)
 
+The backend API will be accessible at [https://localhost:7224/swagger/index.html.]
+Frontend Setup
+1. Navigate to the frontend directory:
 
-Common Issues
+cd [React_Frontend.zip]
 
-    CORS Errors: Ensure CORS is configured correctly in Program.cs to allow requests from http://localhost:3000.
-    Database Connection Errors: Double-check the connection string in appsettings.json and ensure SQL Server is running.
-    HTTPS Issues: If using https://localhost:7224, make sure your browser allows the self-signed certificate or switch to http for development.
+2. Install dependencies:
 
+npm install
 
-##Contributing
+3. Run the frontend:
 
-Feel free to submit issues, fork the repository, and send pull requests. For major changes, please open an issue first to discuss what you would like to change.
+npm start
 
+The frontend will be available at [http://localhost:3000/]
 
+Tech Stack
+
+This project uses:
+
+  -  React + javaScript (JSX) for the frontend
+  -  ASP.NET Core Web API for the backend
+  -  SQL Server Management Studio for the database
+  -  Redux for state management in React
+  -  Serilog for application logging 
+  -  xUnit for unit testing 
+  -  SonarQube for code quality analysis 
+
+Additional Information
+
+More features and implementation details will be added soon.
+
+Let me know if you need further customization or additions!
 
     
