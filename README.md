@@ -84,6 +84,19 @@ This project uses:
 
 Additional Information
 
+Admin Screen
+![Admin_HomePage](https://github.com/user-attachments/assets/672be254-a18a-452d-8ac6-953b0d0dbed6)
+
+
+User Screen
+![User_HomePage](https://github.com/user-attachments/assets/3c006f65-27f1-4902-b24f-410b611e9eb2)
+
+
+WebAPI Screen
+![WebAPIs_Swaggers](https://github.com/user-attachments/assets/c79f8d12-955b-41a4-b551-3f1c15dbacca)
+
+
+
 More features and implementation details will be added soon.
 
 Let me know if you need further customization or additions!
