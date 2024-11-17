@@ -1,0 +1,56 @@
+*{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbarcontainer{
+    font-weight: bolder;
+    font-size: 300%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.websitename{
+    color: white;
+    text-decoration: underline;
+}
+
+.welcomenote{
+    color: orange;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.description{
+    color: white;
+    margin-left: 5%
+}
+
+.model{
+    background-color: black;
+    color: white;
+}
+
+
+.radiobuttons{
+    color: white;
+}
+
+
+.completedtasks{
+    color: green;
+}
+
+.inprogresstasks{
+    color: yellow;
+}
+
+.pendingtasks{
+    color: red;
+}
+
+.datatable{
+    margin: auto;
+    width: 90%;
+}

@@ -1,0 +1,68 @@
+*{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.namecontainer{
+    text-align: center;
+    justify-content: center;
+    /* margin: 3%; */
+    color: white;
+    position: absolute;
+    left: 43%;
+    top: 3%;
+}
+
+.pagename{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.textdata{
+    color: orange;
+    text-align: left;
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-weight: bolder;
+    font-size: xx-large
+}
+
+.formcontainer{
+    border: 2px solid white;
+    /* margin: 0% 20% 0% 20%; */
+    border-radius: 2%;
+    color: white;
+    width: 30%;
+
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+
+.text-mutedd{
+    color: rgb(159, 158, 158);
+}
+
+.mb-3{
+    margin: 5% 20% 0% 20%;
+}
+
+.button{
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.alreadyhaveaccount{
+    position: relative;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.errormessage{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+}
