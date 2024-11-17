@@ -83,8 +83,19 @@ This project uses:
   -  SonarQube for code quality analysis 
 
 Additional Information
+Admin Screen
+![Admin_HomePage](https://github.com/user-attachments/assets/fd150ee9-fa04-41e8-bee5-ed1236f7a1bf)
 
-More features and implementation details will be added soon.
+
+
+
+User Screen
+![User_HomePage](https://github.com/user-attachments/assets/50c7e94d-8c48-42ee-a0ea-d6e5691d1e33)
+
+
+WebAPI Screen
+![WebAPIs_Swaggers](https://github.com/user-attachments/assets/3c7729d5-c378-4700-90ed-bb1bae1f26af)
+
 
 Let me know if you need further customization or additions!
 
